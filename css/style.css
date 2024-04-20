@@ -73,9 +73,10 @@ nav input {
 }
 
 main {
+    flex-direction: column;
     background-color: var(--color1);
     flex: 20 1 500px; /* Cresce, encolhe e largura máxima de 500px */
-    height: calc(100vw - 224px);
+    min-height: calc(100vh - 224px);
 }
 
 aside {
@@ -86,7 +87,7 @@ aside {
 footer {
     background-color: var(--color4);
     flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
-    height: 100px;
+    height: 124px;
 }
 
 a {
@@ -96,7 +97,7 @@ a {
 
 @media only screen and (max-width: 923px) {
     main {
-        height: calc(100vh - 330px);
+        min-height: calc(100vh - 324px);
     }
 
     aside {
@@ -133,5 +134,17 @@ a {
         display: none;
         opacity: 0;
         transition: 0.3s;
+    }
+
+    nav input {
+        width: 80%;
+        height: 5%;
+        color: white;
+        background-color: var(--color3);
+        border: none;
+        border-radius: 6px;
+        outline: 0;
+        padding: 5px;
+        font-size: 1.
     }
 }
