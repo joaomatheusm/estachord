@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EstaChord</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
@@ -13,26 +14,29 @@
     <div id="background"></div>
     <div class="container">
         <div class="logo">
-            <a href="/index.html">
-                <img src="/img/logo-branco.png" alt="" width="200px"> <!-- Diminuir a imagem original depois -->
+            <a href="../index.php">
+                <img src="../img/logo-branco.png" alt="" width="200px"> <!-- Diminuir a imagem original depois -->
             </a>
         </div>
-        <form action="#">
+        <form action="../php/login.php" method="POST">
             <div class="row">
                 <i class="fas fa-user"></i>
-                <input type="text" placeholder="Nome de usuário" required>
+                <input type="text" name="username" placeholder="Nome de usuário" required>
             </div>
             <div class="row">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Senha" required>
+                <input type="password" name="password" placeholder="Senha" required>
             </div>
-            <div class="pass"><a href="#">Esqueceu sua senha?</a></div>
+            <a href="#">Esqueceu sua senha?</a>
             <div class="row button">
                 <input type="submit" value="Login">
             </div>
-            <div class="signup-link">Ainda não possui uma conta? <br> <a href="signup.html">Registre-se agora</a></div>
+            <div class="signup-link">Ainda não possui uma conta?<br><a href="signup.php">Registre-se agora</a></div>
         </form>
     </div>
 </body>
 
 </html>
+
+
+

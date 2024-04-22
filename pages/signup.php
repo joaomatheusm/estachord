@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EstaChord</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
@@ -13,8 +14,8 @@
     <div id="background"></div>
     <div class="container">
         <div class="logo">
-            <a href="/index.html">
-                <img src="/img/logo-branco.png" alt="" width="200px"> <!-- Diminuir a imagem original depois -->
+            <a href="../index.php">
+                <img src="../img/logo-branco.png" alt="" width="200px"> <!-- Diminuir a imagem original depois -->
             </a>
         </div>
         <form action="#">
@@ -37,7 +38,7 @@
             <div class="row button">
                 <input type="submit" value="Registrar-se">
             </div>
-            <div class="signup-link">Já possui uma conta? <br> <a href="login.html">Faça login agora</a></div>
+            <div class="signup-link">Já possui uma conta?<br><a href="login-page.php">Faça login agora</a></div>
         </form>
     </div>
 </body>

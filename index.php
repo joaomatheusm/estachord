@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>EstaChord</title>
 </head>
 
@@ -28,8 +29,8 @@
     </header>
     <aside>
         <div id="login">
-            <a href="pages/signup.html">Cadastrar-se</a>
-            <a href="pages/login.html">Login</a>
+            <a href="pages/signup.php">Cadastrar-se</a>
+            <a href="pages/login-page.php">Login</a>
         </div>
     </aside>
     <main>
