@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 :root {
     --color1: #636971;
     --color2: #353C47;
@@ -7,11 +9,15 @@
     --color6: #0D1C33;
 }
 
+::selection {
+    background: var(--color3);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body, header, nav, main, aside, footer {
@@ -73,15 +79,43 @@ nav input {
 }
 
 main {
+    padding: 30px;
     flex-direction: column;
-    background-color: var(--color1);
+    background-color: #fff;
     flex: 20 1 500px; /* Cresce, encolhe e largura máxima de 500px */
     min-height: calc(100vh - 224px);
 }
 
 aside {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
     background-color: var(--color2);
     flex: 1 1 200px; /* Cresce, encolhe e largura máxima de 200px */
+}
+
+aside #login {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login a {
+    color: white;
+    font-weight: 450;
+    text-align: center;
+    background-color: var(--color3);
+    padding: 10px;
+    margin: 5px;
+    border: solid var(--color6) 2px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+#login a:hover {
+    background-color: #7c8aa0;
 }
 
 footer {
@@ -103,6 +137,17 @@ a {
     aside {
         flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
         height: 100px;
+        padding: 4px;
+        align-items: start;
+    }
+
+    aside #login {
+        width: 180px;
+        height: 200px;
+    }
+
+    #login a {
+        margin: 2px;
     }
 }
 
