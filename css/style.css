@@ -79,7 +79,6 @@ nav input {
 }
 
 main {
-    padding: 30px;
     flex-direction: column;
     background-color: #fff;
     flex: 20 1 500px; /* Cresce, encolhe e largura máxima de 500px */
@@ -129,14 +128,14 @@ a {
     color: inherit;
 }
 
-@media only screen and (max-width: 923px) {
+@media only screen and (max-width: 1060px) {
     main {
         min-height: calc(100vh - 324px);
     }
 
     aside {
         flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
-        height: 100px;
+        height: 130px;
         padding: 4px;
         align-items: start;
     }

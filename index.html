@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <title>EstaChord</title>
 </head>
 
@@ -33,12 +34,46 @@
         </div>
     </aside>
     <main>
-
+        <section id="slider">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1" class="radio">
+                    <input type="radio" name="radio-btn" id="radio2" class="radio">
+                    <input type="radio" name="radio-btn" id="radio3" class="radio">
+                    <input type="radio" name="radio-btn" id="radio4" class="radio">
+                    <div class="slide first">
+                        <img src="img/corey-taylor.png" alt="corey-taylor"> <!-- Imagem de exemplo -->
+                    </div>
+                    <div class="slide">
+                        <img src="img/libad.jpg" alt="libad"> <!-- Imagem de exemplo -->
+                    </div>
+                    <div class="slide">
+                        <img src="img/korn.jpg" alt="korn"> <!-- Imagem de exemplo -->
+                    </div>
+                    <div class="slide">
+                        <img src="img/nobody.png" alt="nobody"> <!-- Imagem de exemplo -->
+                    </div>
+                    <div class="navigation-auto">
+                        <div id="auto-btn1"></div>
+                        <div id="auto-btn2"></div>
+                        <div id="auto-btn3"></div>
+                        <div id="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
