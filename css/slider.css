@@ -92,7 +92,7 @@
     margin-right: 40px;
 }
 
-/* Estilos de background para botões de navegação automática ativados */
+/* Estilos de background para os botões de navegação automática ativados */
 #radio1:checked ~ .navigation-auto #auto-btn1,
 #radio2:checked ~ .navigation-auto #auto-btn2,
 #radio3:checked ~ .navigation-auto #auto-btn3,
@@ -120,5 +120,16 @@
 @media only screen and (max-width: 862px) {
     #slider {
         display: none;
+    }
+
+    #mobile-img {
+        display: flex;
+        background-color: var(--color3);
+    }
+    
+    #mobile-img img {
+        width: 95%;
+        margin: 15px auto;
+        border-radius: 6px;
     }
 }

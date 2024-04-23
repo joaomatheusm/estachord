@@ -10,7 +10,7 @@
 }
 
 ::selection {
-    background: var(--color3);
+    background: var(--color1);
 }
 
 * {
@@ -86,11 +86,13 @@ main {
 }
 
 aside {
+    /* display: none; */
     flex-direction: column;
     align-items: center;
     padding: 15px;
     background-color: var(--color2);
     flex: 1 1 200px; /* Cresce, encolhe e largura máxima de 200px */
+    max-height: 1500px;
 }
 
 aside #login {
@@ -99,6 +101,18 @@ aside #login {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+aside a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+aside a img {
+    width: 90%;
+    border-radius: 3px;
 }
 
 #login a {
@@ -128,6 +142,10 @@ a {
     color: inherit;
 }
 
+#mobile-img {
+    display: none;
+}
+
 @media only screen and (max-width: 1060px) {
     main {
         min-height: calc(100vh - 324px);
@@ -143,6 +161,11 @@ a {
     aside #login {
         width: 180px;
         height: 200px;
+    }
+
+    aside a img {
+        width: 90%;
+        border-radius: 3px;
     }
 
     #login a {
@@ -170,8 +193,8 @@ a {
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        color: var(--color6);
-        background: #6e809ca4;
+        color: #fff;
+        background: var(--color3);
         align-items: center;
         justify-content: center;
         margin: 0;
@@ -184,7 +207,7 @@ a {
         width: 80%;
         height: 5%;
         color: white;
-        background-color: var(--color3);
+        background-color: var(--color2);
         border: none;
         border-radius: 6px;
         outline: 0;

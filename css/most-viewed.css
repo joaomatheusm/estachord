@@ -29,7 +29,7 @@ li {
 }
 
 li a:hover {
-    color: #e4e1e1;
+    color: #eeecec;
     background-color: var(--color3);
     border: solid var(--color6) 2px;
     border-radius: 6px;
