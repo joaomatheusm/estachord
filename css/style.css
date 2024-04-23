@@ -150,7 +150,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 854px) {
     #open-menu, #close-menu {
         display: block;
     }
