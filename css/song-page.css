@@ -158,6 +158,27 @@ a {
     display: none;
 }
 
+#metronome {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#metronome-btn {
+    color: white;
+    font-weight: 450;
+    text-align: center;
+    background-color: var(--color3);
+    padding: 10px;
+    margin: 5px;
+    border: solid var(--color6) 2px;
+    border-radius: 8px;
+    width: 50%;
+    height: 40%;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1060px) {
     main {
         min-height: calc(100vh - 324px);
