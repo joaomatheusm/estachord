@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lyrics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>EstaChord</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html" id="logo">
+            <img src="/img/logo-branco.png" alt="" width="260px"> <!-- Diminuir o tamanho da imagem original depois -->
+        </a>
+
+        <button id="open-menu">&#9776;</button>
+
+        <nav id="menu">
+            <button id="close-menu">X</button>
+            <a href="#">Cifras</a>
+            <a href="lyrics.html">Letras</a>
+            <a href="#">Cursos</a>
+            <a href="#">Fórum</a>
+        </nav>
+    </header>
+    <aside>
+        <div id="login">
+            <a href="signup.html">Cadastrar-se</a>
+            <a href="login.html">Login</a>
+        </div>
+        <!-- <a href="https://estacio.br/" target="_blank">
+            <img src="/img/vertical-ad.jpg" alt="">
+        </a> -->
+
+    </aside>
+    <main>
+        <div class="container">
+            <div class="lyrics-input">
+                <h1>Busca de letras</h1>
+                <div class="input-wrap">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="artistName" placeholder="Nome do artista...">
+                </div>
+                <div class="input-wrap">
+                    <i class="fa-solid fa-compact-disc"></i>
+                    <input type="text" id="songName" placeholder="Nome da música...">
+                </div>
+                <button type="button" class="fetchBtn">Pesquisar</button>
+            </div>
+            <div class="loading">
+                <p>Procurando letra...</p>
+            </div>
+            <div class="lyrics-output">
+                <pre></pre>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://apis.google.com/js/api.js"></script>  
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script> 
+    <script src="/js/lyrics.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
