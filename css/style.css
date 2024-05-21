@@ -20,6 +20,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.highlight {
+    border: solid var(--color3) 2px;
+}
+
 body, header, nav, main, aside, footer {
     display: flex;
 }
@@ -137,7 +141,7 @@ aside a picture img {
     padding: 30px;
 }
 
-ol {
+tr {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -145,27 +149,28 @@ ol {
     justify-content: space-evenly;
 }
 
-li {
+td {
     width: 315px; /* Cresce, encolhe e largura máxima */
 }
 
-li a:hover {
+td a:hover {
     color: #eeecec;
     background-color: var(--color3);
     border: solid var(--color6) 2px;
     border-radius: 6px;
     height: 100px;
-    transition: 0.5s;
+    transition: border .1s;
 }
 
-li a {
+td a {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 30px;
+    transition: .5s;
 }
 
-li a span{
+td a span{
     font-size: 3em;
     margin: 15px;
 }
@@ -221,6 +226,10 @@ a {
 
 #mobile-img {
     display: none;
+}
+
+#search-icon {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1060px) {

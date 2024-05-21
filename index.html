@@ -18,8 +18,8 @@
         <button id="open-menu">&#9776;</button>
 
         <nav id="menu">
-            <img src="img/lupa-branco.png" alt="" width="30px"> <!-- Diminuir o tamanho da imagem original depois -->
-            <input type="text">
+            <img src="img/lupa-branco.png" alt="" width="30px" id="search-icon"> <!-- Diminuir o tamanho da imagem original depois -->
+            <input type="text" id="table-search">
             <button id="close-menu">X</button>
             <a href="#">Cifras</a>
             <a href="pages/lyrics.html">Letras</a>
@@ -33,10 +33,10 @@
             <a href="pages/login.html">Login</a>
         </div>
         <a href="https://estacio.br/" target="_blank" id="ad">
-            <!-- <picture>
+            <picture>
                 <source media="(max-width: 1060px)" srcset="img/horizontal-ad.jpg" />
                 <img src="img/vertical-ad.jpg" alt="img/vertical-ad.jpg"/>
-            </picture> -->
+            </picture>
         </a>
 
     </aside>
@@ -80,152 +80,154 @@
         </section>
         <section id="most-viewed">
             <h1>Mais acessados</h1>
-            <ol>
-                <li>
-                    <a href="pages/afterlife.html">
-                        <span>1</span>
-                        <div>
-                            <h2>Afterlife</h2>
-                            <p>Avenged Sevenfold</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>2</span>
-                        <div>
-                            <h2>Nobody</h2>
-                            <p>Avenged Sevenfold</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/stay.html">
-                        <span>3</span>
-                        <div>
-                            <h2>Stay</h2>
-                            <p>Post Malone</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>4</span>
-                        <div>
-                            <h2>Snuff</h2>
-                            <p>Slipknot</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>5</span>
-                        <div>
-                            <h2>Make me bad</h2>
-                            <p>Korn</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>6</span>
-                        <div>
-                            <h2>Wish you were here</h2>
-                            <p>Pink Floyd</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>7</span>
-                        <div>
-                            <h2>Sparks</h2>
-                            <p>Coldplay</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>8</span>
-                        <div>
-                            <h2>One more light</h2>
-                            <p>Linkin park</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>9</span>
-                        <div>
-                            <h2>Eddie</h2>
-                            <p>Red hot chilli peppers</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>10</span>
-                        <div>
-                            <h2>Lemon tree</h2>
-                            <p>Post malone</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>11</span>
-                        <div>
-                            <h2>Freak on a leash</h2>
-                            <p>Korn</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>12</span>
-                        <div>
-                            <h2>Aerials</h2>
-                            <p>System of a down</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>13</span>
-                        <div>
-                            <h2>Love of my life</h2>
-                            <p>Queen</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>14</span>
-                        <div>
-                            <h2>Shadow moses</h2>
-                            <p>Bring me the horizon</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>15</span>
-                        <div>
-                            <h2>Cirice</h2>
-                            <p>Ghost</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>16</span>
-                        <div>
-                            <h2>Feel good inc</h2>
-                            <p>Gorillaz</p>
-                        </div>
-                    </a>
-                </li>
-            </ol>
+            <table>
+                <tr>
+                    <td>
+                        <a href="pages/afterlife.html">
+                            <span>1</span>
+                            <div>
+                                <h2>Afterlife</h2>
+                                <p>Avenged Sevenfold</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>2</span>
+                            <div>
+                                <h2>Nobody</h2>
+                                <p>Avenged Sevenfold</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="pages/stay.html">
+                            <span>3</span>
+                            <div>
+                                <h2>Stay</h2>
+                                <p>Post Malone</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>4</span>
+                            <div>
+                                <h2>Snuff</h2>
+                                <p>Slipknot</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>5</span>
+                            <div>
+                                <h2>Make me bad</h2>
+                                <p>Korn</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>6</span>
+                            <div>
+                                <h2>Wish you were here</h2>
+                                <p>Pink Floyd</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>7</span>
+                            <div>
+                                <h2>Sparks</h2>
+                                <p>Coldplay</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>8</span>
+                            <div>
+                                <h2>One more light</h2>
+                                <p>Linkin park</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>9</span>
+                            <div>
+                                <h2>Eddie</h2>
+                                <p>Red hot chilli peppers</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>10</span>
+                            <div>
+                                <h2>Lemon tree</h2>
+                                <p>Post malone</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>11</span>
+                            <div>
+                                <h2>Freak on a leash</h2>
+                                <p>Korn</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>12</span>
+                            <div>
+                                <h2>Aerials</h2>
+                                <p>System of a down</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>13</span>
+                            <div>
+                                <h2>Love of my life</h2>
+                                <p>Queen</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>14</span>
+                            <div>
+                                <h2>Shadow moses</h2>
+                                <p>Bring me the horizon</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>15</span>
+                            <div>
+                                <h2>Cirice</h2>
+                                <p>Ghost</p>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <span>16</span>
+                            <div>
+                                <h2>Feel good inc</h2>
+                                <p>Gorillaz</p>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
         </section>
     </main>
     <footer>
@@ -248,6 +250,7 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/table.js"></script>
 </body>
 
 </html>
