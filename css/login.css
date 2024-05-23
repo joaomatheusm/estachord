@@ -34,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #02050A;
-    background-image: url(/img/corey-taylor.png);
+    background-image: url(../img/corey-taylor.png);
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(3px);
