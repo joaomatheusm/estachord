@@ -146,7 +146,6 @@ aside a img {
 footer {
     background-color: var(--color4);
     flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
-    height: 124px;
 }
 
 a {
