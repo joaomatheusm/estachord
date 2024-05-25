@@ -78,7 +78,7 @@ main {
 }
 
 .fetchBtn:hover {
-    background: #1683db;
+    background: var(--color3);
 }
 
 .lyrics-output, .loading {
