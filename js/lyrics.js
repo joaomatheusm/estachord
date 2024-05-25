@@ -8,7 +8,7 @@ const lyricsOutput = document.querySelector('.lyrics-output');
 
 function checkSongFound(data) {
     if (data.lyrics) {
-        output.innerHTML = data.lyrics;
+        output.innerHTML = data.lyrics.replace('Paroles de la chanson', 'Letra da música').replace('par', 'de');
     } else {
         output.innerHTML = `Nenhuma letra encontrada para os dados inseridos.`;
     }
