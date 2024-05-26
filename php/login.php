@@ -20,18 +20,18 @@ if (isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['pas
         // Se o login for bem-sucedido e o usuário estiver autenticado
         if(isset($_SESSION['idUser'])) {
             // Redireciona para a página inicial
-            header("Location: ../index.php");
+            header("Location: ../index.html");
         } else {
             // Se o usuário não estiver autenticado, redireciona para a página de login
-            header("Location: ../pages/login-page.php");
+            header("Location: ../pages/login-page.html");
         }
     } else {
         // Se o login não for bem-sucedido, redireciona para a página de login
-        header("Location: ../pages/login-page.php");
+        header("Location: ../pages/login-page.html");
     }
 } else {
     // Se os campos de formulário 'username' ou 'password' estiverem vazios, redireciona para a página de login
-    header("Location: ../pages/login-page.php");
+    header("Location: ../pages/login-page.html");
 }
 
 ?>
