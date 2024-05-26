@@ -18,7 +18,7 @@
                 <img src="../img/logo-branco.png" alt="" width="200px"> <!-- Diminuir a imagem original depois -->
             </a>
         </div>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" novalidate>
+        <form action="../php/login.php" method="POST">
             <div class="row">
                 <i class="fas fa-user"></i>
                 <input type="text" name="username" placeholder="Nome de usuário" required>
