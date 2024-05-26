@@ -4,7 +4,7 @@ const bpm_input = document.querySelector('#bpm');
 const ctx = new AudioContext();
 let audio;
 
-fetch('/sounds/drum-stick.mp3')
+fetch('../sounds/drum-stick.mp3')
     .then(data => data.arrayBuffer())
     .then(arrayBuffer => ctx.decodeAudioData(arrayBuffer))
     .then(decodedAudio => {
