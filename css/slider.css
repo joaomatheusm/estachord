@@ -118,7 +118,7 @@
 }
 
 @media only screen and (max-width: 862px) {
-    #slider {
+    /* #slider {
         display: none;
     }
 
@@ -131,5 +131,5 @@
         width: 95%;
         margin: 15px auto;
         border-radius: 6px;
-    }
+    } */
 }
