@@ -30,7 +30,7 @@ body, header, nav, main, aside, footer {
 
 body {
     flex-wrap: wrap;
-    flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
+    flex: 1 1 100vw;
 }
 
 header, nav {
@@ -39,13 +39,13 @@ header, nav {
 }
 
 header {
-    flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
+    flex: 1 1 100vw;
     height: 100px;
 }
 
 header #logo {
     margin: 10px;
-    flex: 0 1 200px; /* Não cresce, encolhe e largura máxima de 200px */
+    flex: 0 1 200px;
 }
 
 #open-menu, #close-menu {
@@ -60,7 +60,7 @@ header #logo {
 }
 
 nav {
-    flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
+    flex: 1 1 100vw;
     align-items: center;
     justify-content: flex-end;
 }
@@ -85,17 +85,16 @@ nav input {
 main {
     flex-direction: column;
     background-color: #fff;
-    flex: 20 1 500px; /* Cresce, encolhe e largura máxima de 500px */
+    flex: 20 1 500px;
     min-height: calc(100vh - 224px);
 }
 
 aside {
-    /* display: none; */
     flex-direction: column;
     align-items: center;
     padding: 15px;
     background-color: var(--color2);
-    flex: 1 1 200px; /* Cresce, encolhe e largura máxima de 200px */
+    flex: 1 1 200px;
 }
 
 aside #login {
@@ -155,7 +154,7 @@ tr {
 }
 
 td {
-    width: 315px; /* Cresce, encolhe e largura máxima */
+    width: 315px;
 }
 
 td a:hover {
@@ -183,7 +182,7 @@ td a span{
 footer {
     color: #fff;
     background-color: var(--color5);
-    flex: 1 1 100vw; /* Cresce, encolhe e largura máxima */
+    flex: 1 1 100vw;
     padding: 40px 60px;
 }
 

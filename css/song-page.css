@@ -13,7 +13,7 @@ main {
     padding: 30px;
     flex-direction: column;
     background-color: #fff;
-    flex: 20 20 500px; /* Cresce, encolhe e largura máxima de 500px */
+    flex: 1 1 500px;
     min-height: calc(100vh - 224px);
 }
 

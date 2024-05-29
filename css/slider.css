@@ -92,7 +92,7 @@
     margin-right: 40px;
 }
 
-/* Estilos de background para os botões de navegação automática ativados */
+/* Estilos de background para os botões de navegação automática marcados */
 #radio1:checked ~ .navigation-auto #auto-btn1,
 #radio2:checked ~ .navigation-auto #auto-btn2,
 #radio3:checked ~ .navigation-auto #auto-btn3,
